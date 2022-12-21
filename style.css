@@ -11,6 +11,8 @@ body {
 }
 
 h1 {
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 4em;
     color: black;
@@ -40,6 +42,8 @@ h2 {
 }
 
 #form {
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 1.3em;
 }
@@ -57,6 +61,9 @@ h2 {
     display: flex;
     align-items: center;
     background-color: white;
+    justify-content: center;
+    margin: auto;
+    justify-items: center;
 
 }
 
@@ -66,3 +73,42 @@ h2 {
     visibility: hidden;
 
 }
+
+@media screen and (max-width: 995px) {
+    h2 {
+        width: 30em;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    h2 {
+        width: 20em;
+    }
+    
+}
+
+@media screen and (max-width: 520px) {
+    h2 {
+        width: 15em;
+        height: auto;
+    }
+    .instructions {
+        font-size: 1em;
+    }
+
+    #robot {
+        width: 3em;
+        display: flex;
+        padding: .5em;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    #form {
+        font-size: 1em;
+    }
+
+
+
