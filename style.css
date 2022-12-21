@@ -1,0 +1,54 @@
+body {
+    font-family: 'Recursive', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    color:blue;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    display: flex;
+    margin: auto;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: orange;
+    border-radius: 20px;
+    height: 3em;
+    font-size: 1.2em;
+    padding: 10px;
+    width: 50em;
+    
+}
+
+#form {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#submitButton {
+    display: flex;
+    margin: auto;
+    
+}
+
+#response {
+    color: red;
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    background-color: white;
+
+}
+
+#again {
+    margin: auto;
+    display: flex;
+    visibility: hidden;
+
+}
